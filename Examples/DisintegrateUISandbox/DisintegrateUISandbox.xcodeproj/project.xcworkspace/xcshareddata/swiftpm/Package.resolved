@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "disintegrateui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/schornon/DisintegrateUI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "db0879960400f40502c86c0bfbe0ddbcc2f06c63"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C595F0B82B8F7F5B0042288B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D72C4C2B8F7D12005D9F99 /* ContentView.swift */; };
+		C595F0BC2B8F93D30042288B /* WarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C595F0BB2B8F93D30042288B /* WarningView.swift */; };
+		C5D72C4B2B8F7D12005D9F99 /* DisintegrateUISandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D72C4A2B8F7D12005D9F99 /* DisintegrateUISandboxApp.swift */; };
+		C5D72C4F2B8F7D14005D9F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D72C4E2B8F7D14005D9F99 /* Assets.xcassets */; };
+		C5D72C522B8F7D14005D9F99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D72C512B8F7D14005D9F99 /* Preview Assets.xcassets */; };
+		C5D72C5A2B8F7D56005D9F99 /* DisintegrateUI in Frameworks */ = {isa = PBXBuildFile; productRef = C5D72C592B8F7D56005D9F99 /* DisintegrateUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C595F0BB2B8F93D30042288B /* WarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningView.swift; sourceTree = "<group>"; };
+		C5D72C472B8F7D12005D9F99 /* DisintegrateUISandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisintegrateUISandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D72C4A2B8F7D12005D9F99 /* DisintegrateUISandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisintegrateUISandboxApp.swift; sourceTree = "<group>"; };
+		C5D72C4C2B8F7D12005D9F99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5D72C4E2B8F7D14005D9F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5D72C512B8F7D14005D9F99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5D72C442B8F7D12005D9F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D72C5A2B8F7D56005D9F99 /* DisintegrateUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5D72C3E2B8F7D12005D9F99 = {
+			isa = PBXGroup;
+			children = (
+				C5D72C492B8F7D12005D9F99 /* DisintegrateUISandbox */,
+				C5D72C482B8F7D12005D9F99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5D72C482B8F7D12005D9F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D72C472B8F7D12005D9F99 /* DisintegrateUISandbox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5D72C492B8F7D12005D9F99 /* DisintegrateUISandbox */ = {
+			isa = PBXGroup;
+			children = (
+				C5D72C4A2B8F7D12005D9F99 /* DisintegrateUISandboxApp.swift */,
+				C595F0BB2B8F93D30042288B /* WarningView.swift */,
+				C5D72C4C2B8F7D12005D9F99 /* ContentView.swift */,
+				C5D72C4E2B8F7D14005D9F99 /* Assets.xcassets */,
+				C5D72C502B8F7D14005D9F99 /* Preview Content */,
+			);
+			path = DisintegrateUISandbox;
+			sourceTree = "<group>";
+		};
+		C5D72C502B8F7D14005D9F99 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C5D72C512B8F7D14005D9F99 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5D72C462B8F7D12005D9F99 /* DisintegrateUISandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D72C552B8F7D14005D9F99 /* Build configuration list for PBXNativeTarget "DisintegrateUISandbox" */;
+			buildPhases = (
+				C5D72C432B8F7D12005D9F99 /* Sources */,
+				C5D72C442B8F7D12005D9F99 /* Frameworks */,
+				C5D72C452B8F7D12005D9F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisintegrateUISandbox;
+			packageProductDependencies = (
+				C5D72C592B8F7D56005D9F99 /* DisintegrateUI */,
+			);
+			productName = DisintegrateUISandbox;
+			productReference = C5D72C472B8F7D12005D9F99 /* DisintegrateUISandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5D72C3F2B8F7D12005D9F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C5D72C462B8F7D12005D9F99 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = C5D72C422B8F7D12005D9F99 /* Build configuration list for PBXProject "DisintegrateUISandbox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5D72C3E2B8F7D12005D9F99;
+			packageReferences = (
+				C5D72C582B8F7D56005D9F99 /* XCRemoteSwiftPackageReference "DisintegrateUI" */,
+			);
+			productRefGroup = C5D72C482B8F7D12005D9F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5D72C462B8F7D12005D9F99 /* DisintegrateUISandbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5D72C452B8F7D12005D9F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D72C522B8F7D14005D9F99 /* Preview Assets.xcassets in Resources */,
+				C5D72C4F2B8F7D14005D9F99 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5D72C432B8F7D12005D9F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C595F0B82B8F7F5B0042288B /* ContentView.swift in Sources */,
+				C5D72C4B2B8F7D12005D9F99 /* DisintegrateUISandboxApp.swift in Sources */,
+				C595F0BC2B8F93D30042288B /* WarningView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C5D72C532B8F7D14005D9F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5D72C542B8F7D14005D9F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5D72C562B8F7D14005D9F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DisintegrateUISandbox/Preview Content\"";
+				DEVELOPMENT_TEAM = 98PQL27BHK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.DisintegrateUISandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5D72C572B8F7D14005D9F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DisintegrateUISandbox/Preview Content\"";
+				DEVELOPMENT_TEAM = 98PQL27BHK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.DisintegrateUISandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5D72C422B8F7D12005D9F99 /* Build configuration list for PBXProject "DisintegrateUISandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D72C532B8F7D14005D9F99 /* Debug */,
+				C5D72C542B8F7D14005D9F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D72C552B8F7D14005D9F99 /* Build configuration list for PBXNativeTarget "DisintegrateUISandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D72C562B8F7D14005D9F99 /* Debug */,
+				C5D72C572B8F7D14005D9F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C5D72C582B8F7D56005D9F99 /* XCRemoteSwiftPackageReference "DisintegrateUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/schornon/DisintegrateUI.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C5D72C592B8F7D56005D9F99 /* DisintegrateUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5D72C582B8F7D56005D9F99 /* XCRemoteSwiftPackageReference "DisintegrateUI" */;
+			productName = DisintegrateUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C5D72C3F2B8F7D12005D9F99 /* Project object */;
+}
